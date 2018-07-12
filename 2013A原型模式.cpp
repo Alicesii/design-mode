@@ -24,7 +24,7 @@
     Public:
     Resume(string name){  /*实现省略*/  }
     Void  SetPersonallnfo(string sex, string age){  /*实现省略*/  }
-        Void setWorkExperience(string   workDate,string company) {  /*实现省略*/  }
+    Void setWorkExperience(string   workDate,string company) {  /*实现省略*/  }
         Cloneable*Clone(){
     Resume *obj=new Resume();
     obj-＞name=this-＞name;
