@@ -35,5 +35,4 @@ void main(){
     AbstractFile*file=ne(compositeFolder)；
     rootFolder-＞addChild(windowsFolder)；
     compositeFolder-＞addChild(file)；
-}
-
+    }
