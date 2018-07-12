@@ -22,7 +22,7 @@ public:
   LightOffCommand(Light* light) { this->light=light; }
   void execute() {loght->off()  ; }
 };
-class RemoteControl{ // 遥控器
+class RemoteControl{ //遥控器
 private:
   Command* onCommands[7];
   Command* offCommands[7];
