@@ -33,5 +33,5 @@
     …//创建更多的Menu对象，此处代码省略
     allMenus-＞add(dinerMenu);    //将dinerMenu添加到餐厅菜单中
     …//为餐厅增加更多的菜单，此处代码省略
-    allMenus-＞print();    //打印饭店所有菜单的信息
+    allMenus-＞print();   //打印饭店所有菜单的信息
     }
