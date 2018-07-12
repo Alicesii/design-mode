@@ -49,6 +49,6 @@ int main() {
   remoteControl->offButtonWasPushed(0);
   remoteControl->onButtonWasPushed(1);
   remoteControl->offButtonWasPushed(1);
-  /* 其余代码省略 */
+   /* 其余代码省略 */
   return 0;
 }
