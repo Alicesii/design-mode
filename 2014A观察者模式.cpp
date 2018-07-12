@@ -63,5 +63,4 @@ class CurrentConditionDisplay:public Observer{
 	    return 0;
 		
 	}	
-		
 };
