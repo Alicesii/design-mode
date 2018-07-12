@@ -30,11 +30,11 @@ Class Waiter{
 	Private:
 		PizzaBuilder* pizzaBuilder;
 	public:
-		void setPizzaBuilder(PizzaBuilder* pizzaBuilder) { /*ÉèÖÃ¹¹½¨Æ÷*/
+		void setPizzaBuilder(PizzaBuilder* pizzaBuilder) { /*Ã‰Ã¨Ã–ÃƒÂ¹Â¹Â½Â¨Ã†Ã·*/
 	this->pizzaBuilder=pizzaBuilder;
 }
 Pizza* getPizza() { return pizzaBuilder->getPizza(); }
-	void construct() { /*¹¹½¨*/
+	void construct() { /*Â¹Â¹Â½Â¨*/
 		pizzaBuilder->createNewPizza();
 		pizzaBuilder->builderParts();
 	}
@@ -47,3 +47,4 @@ int main(){
 	waiter->construct();
 	cout<< "pizza: "<< waiter->getPizza()->getParts()<< endl;
 }
+
