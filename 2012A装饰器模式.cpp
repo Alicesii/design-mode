@@ -25,7 +25,7 @@
          string getDescription(){ return beverage-＞getDescription()+",Mocha"; }
          int cost(){ return MOCHA_PRICE+beverage-＞cost(); }
     };
-    class Whip: public CondimentDecorator {                 //奶泡
+    class Whip: public CondimentDecorator {              //奶泡
          public: Whip (Beverage*beverage) { this-＞beverage=beverage; }
          string getDescription() { return beverage-＞getDescription()+",Whip"; }
          int cost(){ return WHIP_PRICE+beverage-＞cost(); }
