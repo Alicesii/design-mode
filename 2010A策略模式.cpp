@@ -35,4 +35,4 @@ class  FlyBehaVior  {
     if(!flyBehaVior)  delete  flyBehaVior(); 
     if(!takeoffBehavior)  delete takeoffBehaVior; 
     } 
-    }; 
+    };
