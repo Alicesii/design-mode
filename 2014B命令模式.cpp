@@ -8,7 +8,7 @@ class Command {
 public:
  virtual void execute(){}; 
 }；
-class LightOnCommand:public Command { // 开灯命令
+class LightOnCommand:public Command {// 开灯命令
 private:
   Light* light;
 public:
