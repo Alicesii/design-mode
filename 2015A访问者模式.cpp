@@ -51,7 +51,7 @@ m_title = p_title;
 m_author = p_author;
 m_pages = p_pages;
 }
-int Book::getNumberOfPages(){    return m_pages;  }
+int Book::getNumberOfPages(){   return m_pages;  }
 void Book::accept(LibraryVisitor* visitor){ 
  (LibraryVisitor*)visitor‐>visit(this)
 }
