@@ -56,4 +56,4 @@ break; 
 double GetResult(double money) { 
 return cs->acceptCash(money);
     } 
-}；
+};
