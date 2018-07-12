@@ -40,4 +40,4 @@
     else  {
             tissueMachine-＞setState(tissueMachine->getSoldOutState());
     }
-    }  //其余代码省略
+    }  //其余代码省略
