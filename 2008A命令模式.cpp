@@ -44,3 +44,4 @@ void main(){
     RemoteController remoteController；
 remoteController. setCommand(0，&lightCommand);//设置按钮0的命令对象
 }
+               
