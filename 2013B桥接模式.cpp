@@ -37,7 +37,6 @@ public:
 void draw(){/*代码省略*/}
 //其余代码省略
 };
-
 class Circle:public Shape{
 private:double _x,_y,_r;
 public:
