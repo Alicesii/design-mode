@@ -34,4 +34,4 @@
     comp1-＞Add(new HRDepartment("南京办事处人力资源部"));
     comp1-＞Add(new FinanceDepartment("南京办事处财务部"));
       comp->Add(comp1)  ;
-    }
+   }
