@@ -35,6 +35,6 @@
     };
     class AccessFactory:public IFactory{
     public:
-       IDepartment* CreateDepartment() {  return new AccessDepartment() ;  }
+       IDepartment* CreateDepartment() {  return new AccessDepartment() ; }
        //其余代码省略
     };
