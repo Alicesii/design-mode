@@ -6,7 +6,7 @@
 
 所有的设计模式的实现都遵循一条原则,即"找出程序中变化的地方，并把变化封装起来"一个程序的设计总是可以分为可变的部分和不变的部分，当我们找出可变的部分，并且把这些都封装起来，那么剩下的就是不变和稳定的部分。这是nice的
 
-### 适配器模式
+### [适配器模式](https://github.com/Alicesii/design-mode/blob/master/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B9%8B%E9%80%82%E9%85%8D%E5%99%A8%E6%A8%A1%E5%BC%8F.md)
 
 ### [访问者模式](https://github.com/Alicesii/design-mode/blob/master/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B9%8B%E8%AE%BF%E9%97%AE%E8%80%85%E6%A8%A1%E5%BC%8F.md)
 
