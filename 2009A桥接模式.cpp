@@ -7,8 +7,8 @@ class Matrix{    // 各种格式的文件最终都被转化为像素矩阵
     class WinImp ：public ImageImp{
     public：
     void doPaint (Matrix m) { /*调用Windows系统的绘制函数绘制像素矩阵*/)
-    }；
-    class LinuxImp : public ImageImp{
+    };
+    class LinuxImp : public ImageImp{
     public:
         void doPaint(Matrix m) { /*调用 Linux系统的绘制函数绘制像素矩阵*/ }
     };
